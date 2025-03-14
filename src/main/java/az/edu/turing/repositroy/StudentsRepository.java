@@ -15,5 +15,7 @@ public interface StudentsRepository {
 
     Students findStudentsGroup(Groups groups);
 
+    void createNewStudents(String studentName,String email,int groupId);
+
     List<Students> getAllStudents();
 }
